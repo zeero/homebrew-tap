@@ -1,12 +1,12 @@
 class Tcmux < Formula
   desc 'tcmux is a terminal and Claude Code mux viewer.'
-  version '0.4.0'
+  version '0.4.1'
   homepage 'https://github.com/zeero/tcmux'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/zeero/tcmux/releases/download/v0.4.0/tcmux_v0.4.0_darwin_arm64.zip'
-      sha256 '3b2132403fc712ed311afa5c57a6298be93a53dd55a59c80251136e58fa58a70'
+      url 'https://github.com/zeero/tcmux/releases/download/v0.4.1/tcmux_v0.4.1_darwin_arm64.zip'
+      sha256 'sha256:df7a8ebd4e41bbbe61d7acfedd48ab23adbd22928693426cc45075f672cc6ee5'
     end
     if Hardware::CPU.intel?
       url 'https://github.com/zeero/tcmux/releases/download/v0.4.0/tcmux_v0.4.0_darwin_amd64.zip'
