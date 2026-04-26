@@ -6,7 +6,7 @@ class Tcmux < Formula
   on_macos do
     if Hardware::CPU.arm?
       url 'https://github.com/zeero/tcmux/releases/download/v0.4.0/tcmux_v0.4.0_darwin_arm64.zip'
-      sha256 'd386ed5d1c5fed173ed224b6ea2ce86ffa8029a810cf67a9797d017c0e1745e5'
+      sha256 '3b2132403fc712ed311afa5c57a6298be93a53dd55a59c80251136e58fa58a70'
     end
     if Hardware::CPU.intel?
       url 'https://github.com/zeero/tcmux/releases/download/v0.4.0/tcmux_v0.4.0_darwin_amd64.zip'
